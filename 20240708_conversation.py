@@ -1,7 +1,8 @@
 def conversation(name):
-    print("Hi {}".format(name.capatilize()))
+    print("Hi {}".format(name.capitalize()))
     print("Welcome to my conversation program!!!")
     print("Glad to have you in Hardware & Software!!!")
+    return name
 
 def main():
     name = conversation(input("What is your name?"))
